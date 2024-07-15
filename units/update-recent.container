@@ -1,0 +1,10 @@
+[Unit]
+Description=Update Recent
+
+[Container]
+Image=ghcr.io/computator/update-recent
+
+Volume=/DIR_TO_UPDATE:/data
+
+# for multiple dirs
+# Exec=sh -c 'for i in /data/dir1 /data/dir2; do update_recent.sh "$i"; done'
