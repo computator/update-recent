@@ -3,6 +3,7 @@ Description=Update Recent
 
 [Container]
 Image=ghcr.io/computator/update-recent
+AutoUpdate=registry
 
 Volume=/DIR_TO_UPDATE:/data
 
